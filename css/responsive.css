@@ -1,0 +1,334 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+    .iphone_moc{
+        top: 80px;
+    }
+
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    ul.nav > li > a {
+        font-size: 11px;
+        padding: 0 8px;
+    }
+
+    .works_wrap .col-md-4,
+    .feature_wrap .col-md-3,
+    .promo_items .col-sm-3{
+        float: left;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .iphone_moc,
+    .iphone_moc_2{
+        display: none;
+    }
+    .feature_heading {
+        margin-bottom: 40px;
+        padding: 0;
+        margin-top: 0; 
+    }
+    .feature_content.align-right{
+        text-align: left;
+    }
+    .feature_content li:before,
+    .feature_content li:after{
+        display: none;
+    }
+    .dist_wrap {
+        padding: 40px 0 0;
+        margin-bottom: 0;
+    }
+    .dist_wrap h3 {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+    .dist_wrap .dist_btn {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0px 25px;
+        margin-left: 0;
+    }
+    .works_wrap .works_item{
+        margin: 0;
+    }
+    .works_wrap .circle_style{
+        display: none;
+    }
+    .pricing_items .col-sm-3{
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .screen_wrap{
+        width: 750px;
+    }
+    
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+   body, p{
+	   font-size: 12px;
+	   line-height: 22px;
+   }
+   h1{
+	   font-size: 20px;
+   }
+   h2{
+	   font-size: 16px;
+   }
+    .footer_widget_area,
+    .padding{
+        padding: 60px 0;
+    }
+    .pb-60{
+        padding-bottom: 40px;
+    }
+    .title_wrap .title {
+        font-size: 20px;
+        margin: 0 0 5px;
+    }
+    .title_wrap .sec_no {
+        font-size: 60px;
+        bottom: 10px;
+    }
+	.navbar-header {
+		padding: 5px 0;
+	}
+
+    .navbar-header .brand {
+        display: block;
+        padding: 16px 0px 16px 15px;
+        background: #f8f8f8;
+    }
+    .scrollActive .navbar-header {
+		padding: 3px 0;
+	}
+    .navbar-collapse {
+	  background-color: #744da8;
+	  border-top: medium none;
+	  box-shadow: none;
+	  margin-top: 0px;
+	  overflow-x: visible;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	ul.nav{
+        margin: 0;
+        overflow: hidden;
+    }
+	ul.nav > li > a{
+        font-size: 16px;
+        color: #fff;
+		line-height: 60px;
+		padding: 0 30px;
+	}
+    ul.nav > li > a:hover,
+    ul.nav > li.active > a {
+        background-color: #673E9E;
+        color: #fff;
+    }
+    .hero_area{
+        height: 450px;
+    }
+    .hero_content .big_title {
+        font-size: 32px;
+        margin: 0px 0 15px;
+        color: #000;
+    }
+    .lg_btn{
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 35px;
+        margin: 0 10px;
+    }
+    .lg_btn i.fa{
+        font-size: 14px;
+        margin-left: 7px;
+        line-height: 35px;
+    }
+    .down_arrow{
+        bottom: 50px;
+    }
+    .promo_item h2 {
+        margin: 15px 0;
+    }
+    .works_wrap .col-md-4,
+    .feature_wrap .col-md-3,
+    .promo_items .col-sm-3{
+        float: left;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .promo_items .col-sm-3:nth-child(3),
+    .promo_items .col-sm-3:nth-child(4){
+        margin-bottom: 0;
+    }
+    .iphone_moc,
+    .iphone_moc_2{
+        display: none;
+    }
+    .feature_heading {
+        margin-bottom: 40px;
+        padding: 0;
+        margin-top: 0; 
+    }
+    .feature_content.align-right{
+        text-align: left;
+    }
+    .feature_content li:before,
+    .feature_content li:after{
+        display: none;
+    }
+    .dist_wrap {
+        padding: 40px 0 0;
+        margin-bottom: 0;
+    }
+    .dist_wrap h3 {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+    .dist_wrap .dist_btn {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0px 25px;
+        margin-left: 0;
+    }
+    .works_wrap .works_item{
+        margin: 0;
+    }
+    .works_wrap .circle_style{
+        display: none;
+    }
+    .screen_wrap{
+        width: 100%;
+    }
+    .video_inner .video_icon {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+    .subscribe_inner h1,
+    .video_inner h2,
+    .download_inner h1{
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .pricing_items .col-sm-3{
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .download_inner p {
+        margin: 0 0 30px;
+    }
+    .footer_widget_area .col-sm-3{
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer_area {
+        padding: 25px 0;
+        text-align: center;
+    }
+    .footer_menu {
+        text-align: center;
+    }
+    .scroll-to-top{
+        display: none !important;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    .padding{
+        padding: 45px 0;
+    }
+    .pb-60{
+        padding-bottom: 35px;
+    }
+    .hero_area{
+        height: 350px;
+    }
+    .down_arrow{
+        display: none;
+    }
+    .subscribe_form{
+        width: 380px;
+    }
+    .pricing_items .col-sm-3{
+        float: none;
+        width: 100%;
+    }
+    .footer_widget_area .col-sm-3{
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .nicescroll-rails .nicescroll-rails-hr{
+        position: absolute;
+    top: 0
+px
+;
+    height: 0;
+px
+; */
+    width: 390
+px
+;
+    background-color: rgb(116, 77, 168);
+    border: 0
+px
+ solid rgb(234, 234, 234);
+    background-clip: padding-box;
+    border-radius: 0
+px
+;
+    left: 0
+px
+;
+    }
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+    body, p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .title_wrap .title {
+        font-size: 16px;
+        margin: 0 0 5px;
+    }
+    .title_wrap .sec_no {
+        font-size: 45px;
+        bottom: 5px;
+    }
+    .widget_item .widget_title {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+    .subscribe_form {
+        width: 320px;
+    }
+    .subscribe_form .submit {
+        font-size: 14px;
+        padding: 0 14px;
+    }
+    .screen_wrap {
+        width: 340px;
+    }
+}
+/* ---- End of max-width 380px CSS ---- */
